@@ -1,0 +1,9 @@
+{
+	"name": "nitesh-df-demo",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e2d50025-5fd7-43e5-bd77-6ff4f9dbb4c8",
+		"tenantId": "344ab16e-0d56-4087-b262-852f05cb1836"
+	}
+}

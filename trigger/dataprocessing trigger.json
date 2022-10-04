@@ -1,0 +1,28 @@
+{
+	"name": "dataprocessing trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"type": "TumblingWindowTrigger",
+		"typeProperties": {
+			"frequency": "Hour",
+			"interval": 1,
+			"startTime": "2022-09-24T06:30:00Z",
+			"endTime": "2022-09-25T07:22:00Z",
+			"delay": "00:00:00",
+			"maxConcurrency": 50,
+			"retryPolicy": {
+				"intervalInSeconds": 30
+			},
+			"dependsOn": [
+				{
+					"type": "TumblingWindowTriggerDependencyReference",
+					"referenceTrigger": {
+						"referenceName": "hourlylogs trigger",
+						"type": "TriggerReference"
+					}
+				}
+			]
+		}
+	}
+}
