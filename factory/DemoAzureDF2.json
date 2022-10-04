@@ -1,0 +1,9 @@
+{
+	"name": "DemoAzureDF2",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0a640b6e-b4e1-485b-82ec-41fcac6dbcd4",
+		"tenantId": "344ab16e-0d56-4087-b262-852f05cb1836"
+	}
+}

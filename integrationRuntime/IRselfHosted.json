@@ -1,6 +1,12 @@
 {
 	"name": "IRselfHosted",
 	"properties": {
-		"type": "SelfHosted"
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/5cdb766e-b8d9-4c1e-b403-87eb3dd90a0e/resourcegroups/RG-nitesh/providers/Microsoft.DataFactory/factories/nitesh-df-demo/integrationruntimes/IRselfHosted",
+				"authorizationType": "Rbac"
+			}
+		}
 	}
 }
